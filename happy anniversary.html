@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary ❤️</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ff9a9e);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 24px;
+    padding: 40px 30px;
+    max-width: 480px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    position: relative;
+    animation: popIn 0.8s ease;
+  }
+
+  @keyframes popIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+
+  .title {
+    font-size: 2rem;
+    color: #d6336c;
+    margin-bottom: 8px;
+  }
+
+  .names {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .names span {
+    color: #ff6b81;
+  }
+
+  .heartbeat {
+    font-size: 3rem;
+    display: inline-block;
+    animation: beat 1.2s infinite;
+  }
+
+  @keyframes beat {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+  }
+
+  .counter {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+  }
+
+  .counter div {
+    background: #fff0f3;
+    border-radius: 14px;
+    padding: 12px 14px;
+    min-width: 70px;
+    box-shadow: 0 4px 10px rgba(255, 107, 129, 0.2);
+  }
+
+  .counter .num {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #d6336c;
+  }
+
+  .counter .label {
+    font-size: 0.75rem;
+    color: #888;
+    text-transform: uppercase;
+  }
+
+  .message {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-style: italic;
+  }
+
+  .btn {
+    margin-top: 25px;
+    background: #ff6b81;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+  }
+
+  .btn:hover {
+    background: #d6336c;
+    transform: scale(1.05);
+  }
+
+  .heart {
+    position: fixed;
+    top: -10%;
+    font-size: 20px;
+    color: #ff6b81;
+    animation: fall linear infinite;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  @keyframes fall {
+    to {
+      transform: translateY(110vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="heartbeat">💖</div>
+  <div class="title">Happy Anniversary</div>
+  <div class="names"><span>Ikyan Angga Permana Putra</span> & <span>Mahalita Tentrami</span></div>
+
+  <div class="counter" id="counter">
+    <div><div class="num" id="years">0</div><div class="label">Tahun</div></div>
+    <div><div class="num" id="months">0</div><div class="label">Bulan</div></div>
+    <div><div class="num" id="days">0</div><div class="label">Hari</div></div>
+  </div>
+
+  <p class="message" id="message">
+    Happyy anniversaryyy cayangg kuuu cintaa kuu dedee kuuu istriii kuuuu yanggg cantikkkk imuppppp lucuuuu menggemaskannn
+    maaciii cayanggg udahhh mauuu bertahannn samaaa akuuuu selamaaa 2 tahunnn iniii cayanggg kuuu
+    gaaa kerasaaa yaaa cayangggg kitaaa sekaranggg udahhh 2 tahunnn berjalannn cayanggg
+    maaciii cayangggg kuuuu selamaaa iniiii udahhh mauuuu sabarrrr samaaa akuuuu, menemaniii akuuuuu, 
+    dannnn bersabarrrr samaaa prosessss akuuuu cayanggggg.
+
+    Akuuuu mintaaaa maaffff cayanggg kuuu kalauuu selamaaa 2 tahunnn iniiii akuuu banyakkkk merepotkannnn kamuuu cayanggg kuuuu 
+    dannn jugaaa bikinnn kamuuuu marahhhh terussss samaaaa akuuuu cayanggg kuuuu.
+
+    Akuuuu senangggg bisaaaa jalaniiii hubungannn iniiii samaaaa kamuuu selamaaa iniiii cayangggg kuuuu bagaimanaaa samaaa kamuuuu cayanggg????
+
+    Akuuuu bangggaaa samaaa kamuuuu cayanggg kuuuu, akuu banggaaa karenaaaaa kesabarannn kamuuuu, ketulusannn kamuuuu dannn usahaaaa kamuuuu 
+    yanggggg gigihhhh cayangggg kuuuu
+    semogaaaa kitaaa terusss bersamaaaa sampaiiii jenjangggg selanjutnyaaaa cayangggg
+    
+    I loveeee youuuu myyyy darlingggg. 💕
+  </p>
+
+  <button class="btn" onclick="celebrate()">Rayakan! 🎉</button>
+</div>
+
+<script>
+  // ==== EDIT TANGGAL JADIAN DI SINI (format: 'YYYY-MM-DD') ====
+  const startDate = new Date('2024-08-02');
+
+  function updateCounter() {
+    const now = new Date();
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+    let days = now.getDate() - startDate.getDate();
+
+    if (days < 0) {
+      months--;
+      const lastMonth = new Date(now.getFullYear(), now.getMonth(), 0);
+      days += lastMonth.getDate();
+    }
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    document.getElementById('years').textContent = years;
+    document.getElementById('months').textContent = months;
+    document.getElementById('days').textContent = days;
+  }
+
+  updateCounter();
+  setInterval(updateCounter, 1000 * 60 * 60); // update tiap jam
+
+  // Animasi hati berjatuhan
+  function createHeart() {
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    heart.innerHTML = ['❤️', '💕', '💖', '💗'][Math.floor(Math.random() * 4)];
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.animationDuration = (Math.random() * 3 + 4) + 's';
+    heart.style.fontSize = (Math.random() * 15 + 15) + 'px';
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 8000);
+  }
+
+  setInterval(createHeart, 400);
+
+  function celebrate() {
+    for (let i = 0; i < 30; i++) {
+      setTimeout(createHeart, i * 50);
+    }
+    document.getElementById('message').textContent =
+      "akuuuu bersyukurrrr punyaaaa kamuuu cayanggg kuuuuu, akuuu harappppp kitaaaa bersamaaaa terussss cayangggg 🥰❤️";
+  }
+</script>
+
+</body>
+</html>
